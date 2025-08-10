@@ -46,6 +46,7 @@
 ![Альтернативный текст](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXZ1bjNiZTg0OW52c3hkZXgwMzhyczkzb3FhOWM5N2ZldXZtYW14ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Vbtc9VG51NtzT1Qnv1/giphy.gif)
 
 Изображение из папки в текущем репозитории
+
 ![Альтернативный текст](../../resources/markdown.jpeg)
 
 ## Цитаты
@@ -54,16 +55,6 @@
 >
 > > Вложенная цитата
 
-## Код
-
-Встроенный код: `var example = "hello world";`
-
-Блок кода с подсветкой синтаксиса:
-
-javascript
-function sayHello() {
-console.log("Привет, мир!");
-}
 ## Таблицы
 
 | Заголовок 1 | Заголовок 2 | Заголовок 3 |
@@ -85,7 +76,7 @@ console.log("Привет, мир!");
 
 Вот предложение со сноской. [^1]
 
-[^1]: Это сноска.
+[^1]: Это сама сноска.
 
 ## Сворачиваемые разделы
 
@@ -99,10 +90,10 @@ console.log("Привет, мир!");
 
 ```mermaid
 graph TD;
-A-->B;
+A-->D;
 A-->C;
-B-->D;
-C-->D;
+D-->B;
+C-->B;
 ```
 > Примечание: Диаграммы Mermaid поддерживаются на GitHub и других платформах, которые включают это расширение. 
 > Для просмотра диаграмм локально можно установить расширение в IDE, например Mermaid Chart
