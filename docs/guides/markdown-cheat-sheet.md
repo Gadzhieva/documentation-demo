@@ -41,7 +41,12 @@
 
 ## Изображения
 
-![Альтернативный текст](https://via.placeholder.com/150)
+Изображение/gif прямо из интернета
+
+![Альтернативный текст](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXZ1bjNiZTg0OW52c3hkZXgwMzhyczkzb3FhOWM5N2ZldXZtYW14ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Vbtc9VG51NtzT1Qnv1/giphy.gif)
+
+Изображение из папки в текущем репозитории
+![Альтернативный текст](../../resources/markdown.jpeg)
 
 ## Цитаты
 
@@ -99,4 +104,5 @@ A-->C;
 B-->D;
 C-->D;
 ```
-> Примечание: Диаграммы Mermaid поддерживаются на GitHub и других платформах, которые включают это расширение.
+> Примечание: Диаграммы Mermaid поддерживаются на GitHub и других платформах, которые включают это расширение. 
+> Для просмотра диаграмм локально можно установить расширение в IDE, например Mermaid Chart
